@@ -12,8 +12,7 @@ Java 备忘清单
 ```java
 public class Hello {
   // 主要方法
-  public static void main(String[] args)
-  {
+  public static void main(String[] args) {
     // 输出: Hello, world!
     System.out.println("Hello, world!");
   }
@@ -865,7 +864,7 @@ public class CallableTask implements Callable<T> {
 }
 ```
 
-继承Thrad类
+继承Thread类
 
 ```java
 public class ExtendsThread extends Thread {
